@@ -14,7 +14,8 @@ public class HelloServlet extends HttpServlet {
        resp.setContentType("text/html;charset=UTF-8");
        PrintWriter out = resp.getWriter();
        out.println("<h2>Сәлем, Servlet!</h2>");
-       out.println("<p>Студент: Аты-жөні</p>");
+       out.println("<p>Студент: Өтебай-Айша</p>");
        out.println("<p>Уақыт: " + LocalDateTime.now() + "</p>");
    }
 }
+
